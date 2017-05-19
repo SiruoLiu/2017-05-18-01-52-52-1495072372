@@ -9,10 +9,10 @@ module.exports = function main() {
 };
 
 class Sequence {
-	var array
+	
   constructor(input) {
     // Write your code here
-	 array=input;
+	var array=input;
   }
 
   minimum() {
