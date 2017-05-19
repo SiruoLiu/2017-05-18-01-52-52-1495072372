@@ -8,7 +8,7 @@ module.exports = function main() {
 	o) 最大值 = ${sequence.maximum()}
 	o) 元素数量 = ${sequence.count()}
 	o) 平均值 = ${sequence.average()}
-// Write your code here
+
 `);
 };
 
@@ -51,7 +51,7 @@ class Sequence {
   var sum=0;
     // Write your code here
 	for (var i = 0; i < len; i++){ 
-	sum+this.array[i];
+	sum+=this.array[i];
 	} 
 	return (sum/len*100)/100;
   }
