@@ -12,7 +12,7 @@ class Sequence {
 	
   constructor(input) {
     // Write your code here
-	var array=input;
+	 this.array=input;
   }
 
   minimum() {
