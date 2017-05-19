@@ -2,7 +2,7 @@
 
 
   // Write your code here
-}module.exports = function main() {
+module.exports = function main() {
     let sequence = new Sequence([6, 9, 15, -2, 92, 11]);
     console.log(`o) 最小值 = ${sequence.minimum()}
 	console.log(o) 最大值 = ${sequence.maximum()}
@@ -55,4 +55,4 @@ class Sequence {
 	} 
 	return sum/len;
   }
-
+}
