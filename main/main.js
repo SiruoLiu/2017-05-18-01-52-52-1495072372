@@ -53,6 +53,6 @@ class Sequence {
 	for (var i = 0; i < len; i++){ 
 	sum+this.array[i];
 	} 
-	return sum/len;
+	return (sum/len*100)/100;
   }
 }
