@@ -21,37 +21,37 @@ class Sequence {
 
   minimum() {
     // Write your code here
-	var min = array[0];
-	var len = array.length;
+	var min = this.array[0];
+	var len = this.array.length;
 	for (var i = 1; i < len; i++){ 
-	if (array[i] < min){ 
-	min = array[i]; 
+	if (this.array[i] < min){ 
+	min = this.array[i]; 
 	}
 	}
 	return min;
   }
   maximum() {
     // Write your code here
-	var max = array[0];
-	var len = array.length; 
+	var max = this.array[0];
+	var len = this.array.length; 
 	for (var i = 1; i < len; i++){ 
-	if (array[i] > max) { 
-	max = array[i]; 
+	if (this.array[i] > max) { 
+	max = this.array[i]; 
 	} 
 	} 
 	return max;
   }
 	count() {
     // Write your code here
-	return array.length;
+	return this.array.length;
   }
   average() {
   
-  var len = array.length;
+  var len = this.array.length;
   var sum=0;
     // Write your code here
 	for (var i = 0; i < len; i++){ 
-	sum+=array[i];
+	sum+this.array[i];
 	} 
 	return sum/len;
   }
